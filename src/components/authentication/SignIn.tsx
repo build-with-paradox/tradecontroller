@@ -1,15 +1,15 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { FaGoogle, FaGithub } from "react-icons/fa";
 import { toast } from "react-hot-toast";
-import { signIn } from "next-auth/react";
+// import { signIn } from "next-auth/react";
 import Link from "next/link";
 
 
 const Signin = () => {
-  const router = useRouter();
+  // const router = useRouter();
   const [user, setUser] = useState({ email: "", password: "" });
 
   const handleInputChange = (e: any) => {
