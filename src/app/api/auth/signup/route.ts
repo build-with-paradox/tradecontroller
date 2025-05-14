@@ -3,7 +3,7 @@ import bcrypt from "bcryptjs";
 import { mongooseConnection } from "@/lib/mongoconnection";
 import User from "@/models/Users";
 
-export const handler = async (request: NextRequest) => { 
+export const POST = async (request: NextRequest) => { 
     try {
 
         if (request.method !== "POST") {
