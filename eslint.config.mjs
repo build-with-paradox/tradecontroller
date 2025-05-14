@@ -12,11 +12,11 @@ const compat = new FlatCompat({
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
 
-  // 👇 Custom rule overrides
   {
+    // You can also add `files` if you want to limit scope
     rules: {
       "@typescript-eslint/no-explicit-any": "off",
-      "no-unused-vars": "off"
+      "@typescript-eslint/no-unused-vars": "off", // ✅ Correct rule
     },
   },
 ];
