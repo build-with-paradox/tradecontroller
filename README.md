@@ -3,6 +3,9 @@
 **Admin Dashboard for TradeNest: Manage Users, Sellers, Products, and Platform Analytics**
 Built with **Next.js 14**, **Tailwind CSS**, **MongoDB**, and **Express.js**
 
+![Nest-Control Banner](https://res.cloudinary.com/deduj0jrx/image/upload/v1747184622/nest-control_gkdahd.png) <!-- Optional -->
+
+
 ---
 
 ## 🚀 Overview
